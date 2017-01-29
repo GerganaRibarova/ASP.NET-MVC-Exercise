@@ -155,9 +155,11 @@ namespace AutomatedTellerMachine.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    UserManager.AddClaim(user.Id, new Claim(ClaimTypes.GivenName, model.FirstName));
                     var db = new ApplicationDbContext();
+                    var accountNumber = (123456 + db.CheckingAccounts.Count()).ToString().PadLeft(10, '0');
                     var checkingAccount = new CheckingAccount { FirstName = 
-                        model.FirstName, LastName = model.LastName, AccountNumber = "0000123456", Balance = 0, ApplicationUserId = user.Id};
+                        model.FirstName, LastName = model.LastName, AccountNumber = accountNumber, Balance = 0, ApplicationUserId = user.Id};
                     db.CheckingAccounts.Add(checkingAccount);
                     db.SaveChanges();
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);

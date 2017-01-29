@@ -136,3 +136,6 @@ E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\
 E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csprojResolveAssemblyReference.cache
 E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
 E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb
+E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csproj.GenerateResource.Cache
+E:\Programming\ASP.NET Applications\AutomatedTellerMachine\ASP.NET-MVC-Exercise\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.AccountNumberChanges.resources
